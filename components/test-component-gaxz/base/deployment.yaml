@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-component-gaxz
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:7cd464b184a44f7183473430972bf587
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:42899a60395dafb83a2670433bc04a12aba8f56f62a6ca1c9cfad71259f80fbe
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
